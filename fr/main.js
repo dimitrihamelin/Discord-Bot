@@ -586,7 +586,8 @@ const modal = new ModalBuilder()
 			  const { Routes } = require('discord-api-types/v9');
 			  const commands = require('./commands');
 
-			  const rest = new REST({ version: '9' }).setToken('');
+			 const rest = new REST({ version: '9' }).setToken(Token);
+
 
 			  (async () => {
 				  try {
